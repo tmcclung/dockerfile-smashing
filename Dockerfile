@@ -7,6 +7,7 @@ RUN apt-get update && \
     apt-get -y clean
 RUN gem update --system
 RUN gem install bundler smashing
+RUN echo "I see you David!" > hellodavid.txt
 RUN mkdir /smashing && \
     smashing new smashing && \
     cd /smashing && \
