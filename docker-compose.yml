@@ -1,9 +1,9 @@
 version: '3'
 services:
   smashing:
-    image: 232490755822.dkr.ecr.us-west-2.amazonaws.com/tmcclung/smashing
+    image: docker.giffin.org/tmcclung/dockerfile-smashing
     command:
-      - run.sh
+      - /run.sh
     ports:
       - "3030:3030"
     environment:
