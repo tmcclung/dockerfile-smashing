@@ -1,3 +1,5 @@
+Test
+
 # smashing
 Run [smashing](https://github.com/Smashing/smashing) in a [Docker](http://docker.io/) container.
 
